@@ -376,8 +376,12 @@
       <div class="contact">
         <div class="form">
           <!-- Netlify Forms: submissions appear in Netlify dashboard -->
-          <form name="kontakt" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="kontakt" />
+          <form action="https://formsubmit.co/marburgerstickerei@gmail.com" method="POST" accept-charset="UTF-8">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Neue Anfrage über marburgerstickerei.de">
+            <input type="hidden" name="_next" value="https://marburgerstickerei.de/#kontakt">
+
             <div class="field">
               <label for="vorname">Vorname</label>
               <input id="vorname" name="Vorname" autocomplete="given-name" required />
