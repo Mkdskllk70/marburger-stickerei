@@ -313,7 +313,7 @@ input:focus, textarea:focus{outline: none; border-color: rgba(11,11,12,.38); box
 .toast{
   position:fixed; left:18px; bottom:18px; z-index:60;
   display:flex; gap:10px; align-items:center;
-  background:#0b0b0c; color:#fff;
+  background: #25D366; color:#fff;
   padding:12px 14px;
   border-radius: 999px;
   box-shadow: 0 18px 40px rgba(0,0,0,.22);
@@ -383,3 +383,4 @@ input:focus, textarea:focus{outline: none; border-color: rgba(11,11,12,.38); box
 .legal p{line-height: 1.7}
 .legal ul{margin: 10px 0 14px 18px}
 .legal li{margin: 6px 0}
+.toast:hover{filter:brightness(0.95)}
