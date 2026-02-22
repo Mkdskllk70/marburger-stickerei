@@ -252,10 +252,8 @@
       <div class="note">
         <ul>
           <li>Set‑Up Kosten für reine Typografie‑Stickereien: ab 6,00 € (einmalig)</li>
-          <li>Set‑Up Kosten für die Stickdateierstellung einer Grafik: ab 30,00 € (einmalig)</li>
-          <li>Fremdwareaufschlag für angelieferte Textilien: 1,50 €</li>
-          <li>Farbwechsel innerhalb eines Projektes: 10,00 €</li>
-          <li>Expressproduktion (1–3 Tage nach Wareneingang): +40% Preis</li>
+          <li>Set‑Up Kosten für die Stickdateierstellung einer Grafik: ab 30,00 € (einmalig)</li><li>Farbwechsel innerhalb eines Projektes: 10,00 €</li>
+          <li>Expressproduktion (1–3 Tage nach Wareneingang): +20% Preis</li>
         </ul>
       </div>
 
@@ -336,7 +334,7 @@
         <div class="card">
           <div class="icon" aria-hidden="true">★</div>
           <h3>Nachbestellung</h3>
-          <p>Bei Firmen/Teams können Motive später leicht nachproduziert werden.</p>
+          <p>Nachbestellungen jederzeit möglich – Ihre Motive werden bei uns gespeichert.</p>
         </div>
       </div>
     </div>
@@ -354,7 +352,7 @@
         </details>
         <details>
           <summary>Kann ich eigene Textilien mitbringen?</summary>
-          <p>Ja. Bitte beachte, dass bei angelieferten Textilien ein kleiner Aufschlag anfallen kann (siehe Preisliste).</p>
+          <p>Ja, gerne. Wir prüfen Material und Platzierung und geben dir eine Empfehlung für das beste Ergebnis.</p>
         </details>
         <details>
           <summary>Wie lange dauert die Produktion?</summary>
@@ -362,7 +360,7 @@
         </details>
         <details>
           <summary>Was ist der Unterschied zwischen Stick & DTF?</summary>
-          <p>Stick ist besonders edel und robust. DTF ist ideal für sehr farbige Motive oder feine Details – ebenfalls langlebig.</p>
+          <p>Stick ist die hochwertigste und besonders langlebige Veredelung: Das Motiv wird direkt in den Stoff eingestickt, wirkt edel, ist sehr abriebfest und hält viele Wäschen – ideal für Arbeitskleidung, Caps, Polos und Hoodies. DTF (Direct‑to‑Film) ist ein Transferdruck: perfekt für sehr farbige Motive, Verläufe oder feine Details. DTF ist ebenfalls haltbar, fühlt sich jedoch wie eine dünne Druckschicht an und ist besonders gut für T‑Shirts und große Motive geeignet.</p>
         </details>
       </div>
     </div>
@@ -376,7 +374,7 @@
       <div class="contact">
         <div class="form">
           <!-- Netlify Forms: submissions appear in Netlify dashboard -->
-          <form action="https://formsubmit.co/marburgerstickerei@gmail.com" method="POST" accept-charset="UTF-8">
+          <form action="https://formsubmit.co/marburgerstickerei@gmail.com" method="POST" accept-charset="UTF-8" enctype="multipart/form-data">
             <input type="text" name="_honey" style="display:none">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_subject" value="Neue Anfrage über marburgerstickerei.de">
@@ -398,7 +396,14 @@
               <label for="betreff">Betreff</label>
               <input id="betreff" name="Betreff" />
             </div>
+            
             <div class="field">
+              <label for="attachment">Motiv / Datei (optional)</label>
+              <input id="attachment" name="attachment" type="file" accept="image/*,.pdf,.svg,.ai">
+              <p class="hint">Du kannst z. B. ein Logo, Bild oder PDF hochladen.</p>
+            </div>
+
+<div class="field">
               <label for="nachricht">Nachricht</label>
               <textarea id="nachricht" name="Nachricht" placeholder="z.B. Motiv, Größe, Anzahl, Textilart…"></textarea>
             </div>

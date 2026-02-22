@@ -277,6 +277,7 @@ input, textarea{
 textarea{min-height:120px; resize:vertical}
 input:focus, textarea:focus{outline: none; border-color: rgba(11,11,12,.38); box-shadow: 0 0 0 4px rgba(11,11,12,.06)}
 .small{font-size:13px; color:var(--muted)}
+.hint{font-size:12px; color:var(--muted); line-height:1.4}
 .kontaktbox{
   border:1px solid var(--line);
   border-radius: 22px;
